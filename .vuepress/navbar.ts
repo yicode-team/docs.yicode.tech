@@ -48,6 +48,17 @@ function generateSideBar() {
         return index;
     });
 
+    sidebar2.push({
+        text: "陈随易",
+        icon: "people",
+        link: "https://chensuiyi.com",
+    });
+    sidebar2.push({
+        text: "前端世界",
+        icon: "people",
+        link: "https://front-end.world",
+    });
+
     return sidebar2;
 }
 export default navbar(generateSideBar());
